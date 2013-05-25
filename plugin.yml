@@ -1,0 +1,8 @@
+name: AutoIgnite
+main: ca.kanoa.request.autoignite.AutoIgnite
+version: 1
+author: 12323op
+permissions:
+    autoignite:
+        description: Allows placed TNT to be automatically ignited
+        default: op
