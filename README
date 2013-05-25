@@ -1,0 +1,10 @@
+Name: AutoIgnite
+
+Description: Allows placed TNT to automatically ignite if the player who placed it has permissions.
+
+Permissions:
+    autoignite: Allows a player to use AutoIgnite
+
+Commands: None
+
+Download: http://kanoa.ca/uploads/AutoIgnite-1.0.jar
