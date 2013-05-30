@@ -44,6 +44,9 @@ public class AutoIgnite extends JavaPlugin implements Listener {
 				event.getBlock().getType().equals(Material.TNT)) {
 			Location loc = event.getBlock().getLocation();
 			loc.getBlock().setType(Material.AIR);
+			loc.setY(loc.getY() + 0.9f);
+			loc.setX(loc.getX() + 0.5f);
+			loc.setZ(loc.getZ() + 0.5f);
 			loc.getWorld().spawn(loc, TNTPrimed.class);
 		}
 	}
